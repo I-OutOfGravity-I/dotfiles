@@ -14,9 +14,13 @@ while true; do
             $HOME/.config/polybar/cava.sh &
         fi
     else
-	    echo""
-        pkill "cava.sh"
-		pkill "cava"
+        sleep 5
+        if   [[ $(pacmd list-sink-inputs | grep "state: CORKED") ]];
+        then
+            echo""
+            pkill "cava.sh"
+            pkill "cava"
+        fi
     fi
     sleep 1
 done
