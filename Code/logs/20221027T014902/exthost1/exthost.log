@@ -1,0 +1,12 @@
+[2022-10-27 01:49:05.250] [exthost] [info] Extension host with pid 6002 started
+[2022-10-27 01:49:05.250] [exthost] [info] Skipping acquiring lock for /home/OutOfGravity/.config/Code/User/workspaceStorage/a722088502f92e65a7af369dc92f4395.
+[2022-10-27 01:49:05.316] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-10-27 01:49:05.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-10-27 01:49:05.346] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-10-27 01:49:05.349] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-10-27 01:49:05.402] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-10-27 01:49:05.424] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-10-27 01:49:05.472] [exthost] [info] Eager extensions activated
+[2022-10-27 01:49:05.503] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-27 01:49:05.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-10-27 01:49:05.516] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

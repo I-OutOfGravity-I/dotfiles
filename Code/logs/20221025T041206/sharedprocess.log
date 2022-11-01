@@ -1,0 +1,8 @@
+[2022-10-25 04:12:09.520] [sharedprocess] [info] Starting worker process with pid 14714 (type: fileWatcher, window: 1).
+[2022-10-25 04:12:12.073] [sharedprocess] [info] Getting Manifest... ms-vscode.cpptools-themes
+[2022-10-25 04:12:12.406] [sharedprocess] [info] Installing extension: ms-vscode.cpptools-themes
+[2022-10-25 04:12:13.433] [sharedprocess] [info] Downloaded extension: ms-vscode.cpptools-themes /home/OutOfGravity/.config/Code/CachedExtensionVSIXs/ms-vscode.cpptools-themes-2.0.0
+[2022-10-25 04:12:13.467] [sharedprocess] [info] Extracted extension to /home/OutOfGravity/.vscode/extensions/.f76a9bd5-b564-49f1-b854-3dc7d61006f7: ms-vscode.cpptools-themes
+[2022-10-25 04:12:13.475] [sharedprocess] [info] Renamed to /home/OutOfGravity/.vscode/extensions/ms-vscode.cpptools-themes-2.0.0
+[2022-10-25 04:12:13.476] [sharedprocess] [info] Extracting completed. ms-vscode.cpptools-themes
+[2022-10-25 04:12:13.484] [sharedprocess] [info] Extension installed successfully: ms-vscode.cpptools-themes

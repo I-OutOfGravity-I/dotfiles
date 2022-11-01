@@ -1,0 +1,42 @@
+[2022-10-27T01:48:00.574Z] Log level: Info
+[2022-10-27T01:48:00.580Z] [info] Validating found git in: git
+[2022-10-27T01:48:00.597Z] [info] Using git 2.38.1 from git
+[2022-10-27T01:48:00.615Z] > git rev-parse --show-toplevel [5ms]
+[2022-10-27T01:48:00.615Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-27T01:48:00.623Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-27T01:48:00.628Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-10-27T01:48:00.634Z] [info] Open repository: /home/OutOfGravity/.config
+[2022-10-27T01:48:00.688Z] > git status -z -uall [46ms]
+[2022-10-27T01:48:00.692Z] > git rev-parse --show-toplevel [47ms]
+[2022-10-27T01:48:00.692Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-27T01:48:00.699Z] > git symbolic-ref --short HEAD [7ms]
+[2022-10-27T01:48:00.728Z] > git rev-parse --show-toplevel [32ms]
+[2022-10-27T01:48:00.728Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-27T01:48:00.730Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+[2022-10-27T01:48:00.742Z] > git remote --verbose [4ms]
+[2022-10-27T01:48:00.742Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [9ms]
+[2022-10-27T01:48:00.783Z] > git config --get commit.template [1ms]
+[2022-10-27T01:48:00.793Z] > git status -z -uall [4ms]
+[2022-10-27T01:48:00.797Z] > git symbolic-ref --short HEAD [1ms]
+[2022-10-27T01:48:00.802Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-10-27T01:48:00.812Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [7ms]
+[2022-10-27T01:48:00.812Z] > git remote --verbose [4ms]
+[2022-10-27T01:48:00.833Z] > git config --get commit.template [1ms]
+[2022-10-27T01:48:01.127Z] > git rev-parse --show-toplevel [1ms]
+[2022-10-27T01:48:01.127Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-10-27T01:48:01.158Z] > git check-ignore -v -z --stdin [1ms]
+[2022-10-27T01:48:01.270Z] > git show --textconv :polybar/vpn-wireguard-wg [7ms]
+[2022-10-27T01:48:01.272Z] > git ls-files --stage -- /home/OutOfGravity/.config/polybar/vpn-wireguard-wg [2ms]
+[2022-10-27T01:48:49.115Z] > git status -z -uall [6ms]
+[2022-10-27T01:48:49.123Z] > git symbolic-ref --short HEAD [2ms]
+[2022-10-27T01:48:49.131Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-10-27T01:48:49.140Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-10-27T01:48:49.141Z] > git remote --verbose [2ms]
+[2022-10-27T01:48:49.168Z] > git config --get commit.template [1ms]
+[2022-10-27T01:48:51.721Z] > git check-ignore -v -z --stdin [2ms]
+[2022-10-27T01:48:54.182Z] > git status -z -uall [6ms]
+[2022-10-27T01:48:54.189Z] > git symbolic-ref --short HEAD [2ms]
+[2022-10-27T01:48:54.197Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+[2022-10-27T01:48:54.206Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+[2022-10-27T01:48:54.207Z] > git remote --verbose [2ms]
+[2022-10-27T01:48:54.227Z] > git config --get commit.template [2ms]

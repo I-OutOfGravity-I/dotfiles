@@ -186,7 +186,7 @@ bindsym $mod+r mode "resize"
 #}
 
 for_window [title="myProg"] floating enable 
-for_window [class="^.*"] border pixel 2
+for_window [class="^.*"] border pixel 0
 gaps inner 10
 gaps outer 2
 smart_gaps on

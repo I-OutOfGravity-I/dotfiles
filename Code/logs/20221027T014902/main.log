@@ -1,0 +1,4 @@
+[2022-10-27 01:49:03.058] [main] [info] update#setState idle
+[2022-10-27 01:49:04.557] [main] [info] Starting extension host with pid 6002 (fork() took 9 ms).
+[2022-10-27 01:49:33.072] [main] [info] update#setState checking for updates
+[2022-10-27 01:49:33.104] [main] [info] update#setState available for download

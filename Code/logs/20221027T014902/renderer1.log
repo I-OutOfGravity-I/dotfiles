@@ -1,0 +1,46 @@
+[2022-10-27 01:49:04.280] [renderer1] [error] Error: Unable to read file '/home/OutOfGravity/.config/polybar/vpn-wireguard-wg.sh' (Unknown (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at Object.error (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:603:20316)
+    at Object.onError (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:48328)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:47423
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:45604
+    at Array.forEach (<anonymous>)
+    at I.emitError (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:45593)
+    at I.error (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:45254)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:599:30557
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at l.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at a.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at Y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:3459)
+    at T.onResponse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:4375)
+    at T.onBuffer (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:4225)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:1817
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at l.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at a.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at EventEmitter.ne (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:81:25646)
+    at EventEmitter.emit (node:events:526:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:81:794)
+[2022-10-27 01:49:04.736] [renderer1] [warning] [twxs.cmake]: Cannot register 'cmake.cmakePath'. This property is already registered.
+[2022-10-27 01:49:05.686] [renderer1] [error] [File Watcher (node.js)] Failed to watch /home/OutOfGravity/.config/polybar/vpn-wireguard-wg.sh for changes using fs.watch() (Error: EACCES: permission denied, watch '/home/OutOfGravity/.config/polybar/vpn-wireguard-wg.sh')
+[2022-10-27 01:49:09.485] [renderer1] [error] Error: Unable to read file '/home/OutOfGravity/.config/polybar/vpn-wireguard-wg.sh' (Unknown (FileSystemError): An unknown error occurred. Please consult the log for more details.)
+    at Object.error (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:603:20316)
+    at Object.onError (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:48328)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:47423
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:45604
+    at Array.forEach (<anonymous>)
+    at I.emitError (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:45593)
+    at I.error (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:67:45254)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:599:30557
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at l.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at a.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at Y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:3459)
+    at T.onResponse (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:4375)
+    at T.onBuffer (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:4225)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:545:1817
+    at S.invoke (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:145)
+    at l.deliver (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:2266)
+    at a.fire (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:83:1844)
+    at EventEmitter.ne (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:81:25646)
+    at EventEmitter.emit (node:events:526:28)
+    at Object.onMessage (node:electron/js2c/renderer_init:81:794)
